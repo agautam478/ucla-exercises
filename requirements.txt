@@ -1,4 +1,13 @@
+# Core: lab runs with these four; no optional deps required
 numpy>=1.24
 pandas>=2.0
 matplotlib>=3.8
 jupyter>=1.0
+
+# Optional: Chronos/Bruins OSS path (zero-shot forecasting)
+chronos-forecasting
+transformers
+torch
+
+# Optional: local LLM judge (Chronos lab uses Ollama if available; no extra pip deps for that)
+# accelerate
